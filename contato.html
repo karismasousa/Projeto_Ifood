@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iFood</title>
+        <link rel="icon" href="image/iFood (7).png" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+<div class="container-fluid d-flex justify-content-center my-3">
+    
+    <nav>
+        <div class="container-fluid">
+             <img src="image/iFood.png" alt="Logo iFood" class="img-fluid small-logo">
+              <ul class="list-inline">
+            <li class="list-inline-item ml-3"><a class="btn btn-primary" href="index.html">Home</a></li>
+            <li class="list-inline-item ml-3"><a class="btn btn-primary" href="restaurantes.html">Restaurantes</a></li>
+            <li class="list-inline-item ml-3"><a class="btn btn-primary" href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+        </div>      
+</div>
+
+    <section id="contato" class="text-center my-5">
+        <h2>Formulário de Contato</h2>
+        <div class="container">
+            <form onsubmit="onSubmit()">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+<footer class="bg-dark text-white text-center py-3 footer">
+       <div>
+        <a href="https://www.linkedin.com/company/ifood-/" target="_blank" class="text-white mx-2">
+            <img src="image/linkedin (1).png" alt="redesocial">
+            
+        </a>
+        <a href="https://www.instagram.com/ifoodbrasil/" target="_blank" class="text-white mx-2">
+            <img src="image/instagram.png" alt="redesocial">
+           
+        </a>
+    </div>
+    <p>Entre em contato: ifood@ifood.com | Telefone: (00) 000-0000</p>
+</footer>
+</html>

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Fontdiner+Swanky&family=Londrina+Outline&display=swap');
+
+body {
+    background-image:url(image/fundo.jpg); /* Imagem de fundo */
+    font-family: 'Edu TAS Beginner', cursive;;
+}
+
+header.bg-dark {
+    background-color: transparent !important; /* Cor de fundo do cabeçalho com !important */
+    color: #6929b3; /* Cor do texto no cabeçalho */
+}
+
+.btn-primary {
+    background-color: #651eb5; /* Cor do botão primário */
+    border-color: #2a0b4d; /* Cor da borda do botão primário */
+}
+
+.btn-primary:hover {
+    background-color: #0c2e3ef1; /* Cor do botão primário ao passar o mouse */
+    border-color: #240445; /* Cor da borda do botão primário ao passar o mouse */
+}
+
+.table thead {
+    background-color: #6929b3; /* Cor de fundo do cabeçalho da tabela */
+    color: #fff; /* Cor do texto no cabeçalho da tabela */
+}
+
+.table tbody tr:hover {
+    background-color: #040404; /* Cor de fundo da linha da tabela ao passar o mouse */
+}
+
+.footer {
+    background-color: transparent; /* Cor do rodapé */
+    color: #fffcfc; /* Cor do texto no rodapé */
+}
+
+footer.footer {
+    background-color: rgba(233, 222, 222, 0) !important;/* Cor de fundo do cabeçalho com !important */
+    color: #fff !important; /* Cor do texto no rodapé, ajuste conforme necessário */
+}
+
+/* Adicionar mais estilos conforme necessário */
+
+
+#catalogo {
+    color: #ffffff; /* Cor do texto branco para melhor legibilidade */
+    padding: 50px 0;/* Adiciona espaço interno em todos os lados da div */
+
+}
+
+#catalogo h2 {
+    color: #fff;/*cores*/
+}
+
+h4{
+    color: #fff; /*cores*/
+    font-family: 'Fontdiner Swanky', serif;/*fonte*/
+    text-shadow:0.2em 0.1em 0.07em #9755a2;/*sombreamento na fonte*/
+
+}
+.card {
+    background-color: #23749d98; /* Tom escuro de verde para o fundo dos cards */
+    color: #fff;/*cores*/
+    border: none;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+  }
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+.card-title {
+    color: #fff;/*cores*/
+}
+
+.card-link {
+    color: #113c6d;/*cores*/
+    text-decoration: none;
+}
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+.card-link:hover {
+    text-decoration: underline;
+}
+.smaller-image {
+    max-width: 300px; /* Reduz o tamanho máximo conforme necessário */
+    margin-right: 10px; /* Adicione margem à direita */
+    margin-top: 65px;
+    border: 2px solid #ffff; /* Adiciona borda conforme necessário */
+    border-radius: 8px; /* Adiciona borda-radius conforme necessário */
+    transition: transform 0.3s; /* Adiciona uma transição para a propriedade transform */
+}
+
+.smaller-image:last-child {
+    margin-right: 0; /* Remove a margem à direita da última imagem */
+}
+
+.smaller-image:hover {
+    transform: scale(1.2); /* Aumenta a escala ao passar o mouse sobre a imagem */
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    margin-bottom: 10px;/* Margem vertical */
+}
+
+.small-logo {
+    max-width: 126px; /* Ajusta o tamanho conforme necessário */
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5px; /* Ajusta as margens conforme necessário */
+}
+
+nav {
+    z-index: 1000; /* Certifica que o z-index e maior que o da imagem */
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 100;
+   background-color: #23749df1 ;
+   align-items: center;
+}
+
+/* Estilos específicos para a seção de contato */
+
+#contato {
+    background-color: #23749dc0; /* Cor de fundo da seção de contato */
+    color: #fff;
+    padding: 30px; /* Reduzi o preenchimento para melhorar a aparência do "card" */
+    border-radius: 15px; /* Arredondar as bordas para dar uma aparência de "card" */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionar sombra para destacar o "card" */
+    margin-top: 150px !important; /* Adicione !important para garantir que a margem superior seja aplicada */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+#contato .form-group label {
+    color: #fff; /* Cor do texto das etiquetas no formulário de contato */
+}
+
+#contato .form-control {
+    background-color: #fff; /* Cor de fundo dos campos de formulário */
+    color: #23749df1; /* Cor do texto nos campos de formulário */
+}
+
+#contato .btn-primary {
+    background-color: #fff; /* Cor do botão de envio no formulário de contato */
+    color: #23749df1; /* Cor do texto no botão de envio no formulário de contato */
+}
+
+#contato .btn-primary:hover {
+    background-color: #ccc; /* Cor do botão de envio ao passar o mouse no formulário de contato */
+}
+
+@media screen and (max-width: 768px) {
+    #catalogo {
+        padding: 30px 0; /* Reduz o preenchimento na seção de catálogo em telas menores */
+    }
+
+    .smaller-image {
+        max-width: 100%; /* Torna as imagens responsivas */
+    }
+
+    .container-fluid {
+        margin: 10px 0; /* Reduz a margem vertical na classe container-fluid em telas menores */
+    }
+
+    .list-inline-item {
+        margin-left: 5px; /* Reduz a margem à esquerda entre os itens da lista em telas menores */
+    }
+
+    .small-logo {
+        max-width: 80px; /* Reduz o tamanho do logotipo em telas menores */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #contato {
+        padding: 30px 0; /* Reduz o preenchimento na seção de contato em telas ainda menores */
+    }
+}
