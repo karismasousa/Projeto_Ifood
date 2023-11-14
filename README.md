@@ -1,6 +1,11 @@
-# Proposta de Site para o iFood
+# iFood Hallowen
+![image](https://github.com/karismasousa/Projeto_Ifood/assets/106543715/8b987f69-37b2-470a-8bdd-d8d93f93139b)
 
-Este é um projeto de site criado com o objetivo de propor melhorias e funcionalidades para a plataforma iFood. O site apresenta uma interface intuitiva e responsiva, permitindo aos usuários explorar os recursos de forma eficaz.
+
+
+## Descrição:
+Projeto de desenvolvimento de site criado com o objetivo de propor uma nova ideia para o iFood de comemoração do hallowen, apresenta uma interface intuitiva e responsiva, permitindo aos usuários explorar os recursos de forma eficaz utilizando HTML5, CSS3 e JavaScript.
+Destaque para design responsivo, seções "Restaurantes" e "Contato", proporcionando uma experiência de usuário fluida.
 
 ## Funcionalidades
 
@@ -10,28 +15,22 @@ Este é um projeto de site criado com o objetivo de propor melhorias e funcional
 
 - **Formulário de Contato:** Oferece aos usuários a possibilidade de entrar em contato com o iFood para fornecer feedback, fazer perguntas ou qualquer outra consulta. O formulário inclui campos para nome, e-mail e mensagem.
 
-## Estrutura do Projeto
+## Conquistas e Responsabilidades:
+Implementação de design responsivo para melhor experiência em diferentes dispositivos.
+Estilo visual atraente com paleta de cores gastronômicas.
+Seção de Contato funcional e catálogo de restaurantes detalhado.
 
-O projeto é composto por arquivos HTML, CSS e JavaScript, organizados da seguinte maneira:
+## Uso
 
-- `index.html`: Contém a estrutura principal do site, incluindo a barra de navegação, seções e rodapé.
+- Navegue pelas diferentes seções para descobrir restaurantes e pratos.
+- Clique nos cards dos restaurantes para obter mais informações.
+- Explore o menu.
 
-- `styles.css`: Arquivo de estilo que complementa o Bootstrap para personalizar a aparência do site.
+## Contribuição
 
-## Como Contribuir
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas, enviar solicitações de pull ou propor novos recursos.
 
-1. Faça um fork do repositório.
-2. Clone o fork para o seu ambiente local.
-3. Implemente as melhorias ou funcionalidades desejadas.
-4. Realize o commit das alterações e crie um pull request.
+## Licença
 
-## Tecnologias Utilizadas
+Este projeto é licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para obter detalhes.
 
-- HTML
-- CSS
-- Bootstrap 4.5.2
-- JavaScript
-
-## Contato
-
-Para mais informações, entre em contato.
